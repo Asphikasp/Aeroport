@@ -19,10 +19,10 @@ public class Main {
             case Air_Bus:
                 passNum = random.nextInt(20) + 80;
                 break;
-            case BUISNESS_JET:
+            case Jet:
                 passNum = random.nextInt(5) + 15;
                 break;
-            case Сrop_duster:
+            case CropDuster:
                 passNum = random.nextInt(2) + 3;
                 break;
             case Helicopter:

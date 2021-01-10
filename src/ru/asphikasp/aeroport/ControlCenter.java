@@ -52,7 +52,7 @@ public class ControlCenter {
                         return landingStrips[i];
                 }
                 break;
-            case BUISNESS_JET:
+            case Jet:
                 for (int i = 0; i < landingStrips.length; i++) {
                     if(landingStrips[i].getSize() == LandingStrip.Size.Medium && landingStrips[i].getState() == LandingStrip.State.NotEmpty)
                         return landingStrips[i];
@@ -62,7 +62,7 @@ public class ControlCenter {
                         return landingStrips[i];
                 }
                 break;
-            case Сrop_duster:
+            case CropDuster:
                 for (int i = 0; i < landingStrips.length; i++) {
                     if(landingStrips[i].getSize() == LandingStrip.Size.Short && landingStrips[i].getState() == LandingStrip.State.NotEmpty)
                         return landingStrips[i];
@@ -93,7 +93,7 @@ public class ControlCenter {
                         return true;
                 }
                 break;
-            case BUISNESS_JET:
+            case Jet:
                 for (int i = 0; i < landingStrips.length; i++) {
                     if(landingStrips[i].getSize() == LandingStrip.Size.Medium && landingStrips[i].getState() == LandingStrip.State.NotEmpty)
                         return true;
@@ -103,7 +103,7 @@ public class ControlCenter {
                         return true;
                 }
                 break;
-            case Сrop_duster:
+            case CropDuster:
                 for (int i = 0; i < landingStrips.length; i++) {
                     if(landingStrips[i].getSize() == LandingStrip.Size.Short && landingStrips[i].getState() == LandingStrip.State.NotEmpty)
                         return true;
